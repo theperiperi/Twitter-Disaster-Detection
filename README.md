@@ -16,15 +16,15 @@ This project aims to detect tweets that indicate a disaster using machine learni
 1. Clone this repository:
 git clone https://github.com/theperiperi/Twitter-Disaster-Detection.git
 2. Navigate to the project directory:
-cd twitter-disaster-detection
+'cd twitter-disaster-detection'
 3. Install dependencies:
-pip install -r requirements.txt
+pip install '-r requirements.txt'
 
 
 ## Usage
 1. Place the `train.csv` and `test.csv` files in the project directory.
 2. Run the following command to train the model and make predictions:
-python detect_disasters.py
+'python detect_disasters.py'
 
 3. The predictions will be saved to `predictions.csv`.
 
